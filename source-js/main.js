@@ -1,5 +1,5 @@
 var jQuerytasksList = jQuery('#tasksList')
-var jQuerytasksInput = jQuery('#taskInput')
+var jQuerytaskInput = jQuery('#taskInput')
 var jQuerynotification = jQuery('#notification')
 
 var displayNotification = function () {
