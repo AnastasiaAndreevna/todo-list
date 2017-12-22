@@ -8,6 +8,7 @@
     text-transform: uppercase;
     box-shadow: 0 -10px 10px 0 rgba(1, 1, 1, 0.05);
 }
+
 #footer #taskAdd {
     transition: all 0.3s ease-in-out;
     width: 3rem;
@@ -22,13 +23,16 @@
     outline: 0;
     will-change: transform;
 }
+
 #footer #taskAdd:hover {
     background: #050fe5;
     transform: scale(0.95);
 }
+
 #footer #taskAdd:active {
     transform: scale(0.9);
 }
+
 #footer input#taskInput {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
@@ -37,6 +41,7 @@
     width: calc(100% - 3rem - 5px);
     border: none;
 }
+
 #footer input#taskInput:focus {
     outline: 0;
     border-color: white;
