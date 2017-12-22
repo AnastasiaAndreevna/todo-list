@@ -22,7 +22,7 @@ jQuery('#taskAdd').on('click', function () {
   jQuery('.delete').on('click', function () {
     var jQueryparent = jQuery(this).parent()
 
-    jQueryparentparent.css('animation', 'fadeOut.3s linear')
+    jQueryparent.css('animation', 'fadeOut.3s linear')
 
     setTimeout(function () {
       jQueryparent.remove()
